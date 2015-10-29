@@ -1,0 +1,11 @@
+          <Terminal Commands>
+ ls <directory name>    :  List contents of a directory
+ cd                     :  Go home.
+ cd <directory name>    :  Change directory
+ cd ..                  :  Go up a folder
+ gedit <file name> &    :  Opens or creates a file
+
+           <Git Commands>
+ git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+ git commit -m "Commit Comment"
+ git push
