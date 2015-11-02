@@ -1,0 +1,38 @@
+  <Git Process>
+     -Linux-
+
+  - Open the terminal
+       + The terminal is a black icon with a white border containing the symbols ">_" in it.
+       + It should be located by default at the bottom left corner of your screen on the application's taskbar.
+       + If by some black magic it isn't, simply click the menu button and type "Terminal" in the search bar.
+       + Hit enter or click on the terminal that shows up
+  - Once the terminal is open, enter in this command:
+
+
+        git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
+
+
+  - Note:
+       + The generic CTRL+C CTRL+V will not work in terminal.
+       + Instead, press Shift+Insert to paste.
+  - Replace placeholders with your appropriate information.
+       + your network username
+       + your network password
+       + your github username
+       + your github repository name.git
+  - If this text appears, that means it worked:
+
+              Cloning into '[Your repository name]'...
+              remote: Counting objects: 37, done.
+              remote: Compressing objects: 100% (33/33), done.
+              remote: Total 37 (delta 12), reused 12 (delta 3), pack-reused 0
+              Unpacking objects: 100% (37/37), done.
+
+  - Once cloning your repository file, type in "cd [your repository name] to move the terminal into your repository folder.
+       + The command line should now contain "[Hardware name] ~/[your repository name] $"
+  - Now that you have moved the terminal into your folder, create a new file.
+       + To perform this task, type "gedit [File Name]"
+       + Your new file should open up in gedit.
+  - Edit the file to your liking, then save it. (CTRL+S, File -> Save)
+  - Once done, go back to your terminal.
+  - Type in "git add [your file name that you just edited]
