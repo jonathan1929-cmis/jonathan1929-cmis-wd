@@ -9,3 +9,4 @@
  git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git
  git commit -m "Commit Comment"
  git push
+ git add
