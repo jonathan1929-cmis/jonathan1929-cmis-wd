@@ -10,3 +10,10 @@
  git commit -m "Commit Comment"
  git push
  git add
+
+	   <sftp>
+ put [File Name]        :  Upload files
+ rm  [File Name]        :  Removes Files
+ ![Command]          :  Issues command to local computer
+	
+
