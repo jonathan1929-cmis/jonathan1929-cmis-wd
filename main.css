@@ -1,0 +1,54 @@
+h1 {
+	font-family:Impact, Charcoal, sans-serif;
+	color:#F0FFFF;
+	font-size:30px;
+	background-color:#000000;
+	border:solid 2px #A9A9A9;
+}
+h2 {
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#F0FFFF;
+	font-size:24px;
+	background-color:#000000;
+	border:solid 2px #A9A9A9;
+}
+p {
+	font-family:"Courier New", Courier, monospace;
+	color:#F0FFFF;
+	font-size:13px;
+	background-color:#A9A9A9;
+	border:solid 1px #000000;
+}
+nav {
+	font-family:"Courier New", Courier, monospace;
+	color:#F0FFFF;
+	font-size:13px;
+	background-color:#A9A9A9;
+	border:solid 0px #000000;
+}
+footer {
+	font-family:"Lucida Console", Monaco, monospace;
+	color:#F0FFFF;
+	font-size:10px;
+	background-color:#000000;
+	border:solid 1px #A9A9A9;
+}
+
+
+
+Requirements
+
+Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+	<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+	add a declaration for each element in the body of your index.html file.
+	add properties to style the background color of each element.
+	add properties to style the border of each element.
+	add properties to style the font of each element.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into your "main.css" file as a css comment. *Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.
