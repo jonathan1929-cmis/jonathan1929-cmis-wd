@@ -1,0 +1,28 @@
+h1 {
+	border:solid 1px yellow;
+	margin-right:25px;
+	margin-left:20px;
+	margin-top:30px;
+}
+header {
+	background-color:red;
+	margin-right:1100px;
+	border:solid yellow 100px;
+	border-right-style:solid yellow;
+	border-left-style:hidden;
+	border-top-style:hidden;
+	border-bottom-style:hidden;
+}
+main {
+	background-color:grey;
+}
+table {
+	background-color:white;
+}
+p {
+	background-color:white;
+}
+p2 {
+	background-color:black;
+	color:white;
+}
